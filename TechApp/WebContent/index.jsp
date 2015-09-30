@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">  
 <title>Login Application</title>  
 </head>  
-<body bgcolor = "#003EFF">  
+<body background = "papertheme.jpg">  
     <form action="loginServlet" method="post">
     <div style="float:left;">
       <img src="zoozoo-20.jpg"/>

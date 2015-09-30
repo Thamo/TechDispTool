@@ -20,7 +20,7 @@
             <caption><h2>List of Jobs</h2></caption>
 <tr>
 <th>jod Id</th>
-<th>user id</th>
+<th>sequence<th>
 <th>DueDate</th>
 <th>Category</th>
 </tr> 
