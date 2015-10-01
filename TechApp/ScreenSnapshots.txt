@@ -1,0 +1,505 @@
+
+ 
+
+
+
+
+
+/// Automated Integration of eclipse and GIT using EGIT plugin
+
+ 
+
+
+ Deployment of war file into cloudfoundry(Any nine)
+
+ 
+
+Using manifest file C:\Users\admin\NewPhysicalInventory\manifest.yml
+
+Updating app manifest.yml in org girish_damodar_gmail_com / space test as girish
+.damodar@gmail.com...
+OK
+
+Using route damodar.de.a9sapp.eu
+Uploading manifest.yml...
+Uploading app files from: C:\Users\admin\NewPhysicalInventory\techToolProj.war
+Uploading 1.5K, 13 files
+Done uploading
+OK
+
+Stopping app manifest.yml in org girish_damodar_gmail_com / space test as girish
+.damodar@gmail.com...
+OK
+
+Starting app manifest.yml in org girish_damodar_gmail_com / space test as girish
+.damodar@gmail.com...
+-----> Downloaded app package (824K)
+-----> Downloaded app buildpack cache (4.0K)
+    -----> Java Buildpack Version: v2.5 (offline) | https://github.com/cloudfoun
+dry/java-buildpack.git#840500e
+-----> Downloading Open Jdk JRE 1.8.0_20 from https://download.run.pivotal.io/op
+enjdk/lucid/x86_64/openjdk-1.8.0_20.tar.gz (found in cache)
+       Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.9s)
+-----> Downloading Tomcat Instance 8.0.12 from https://download.run.pivotal.io/t
+omcat/tomcat-8.0.12.tar.gz (found in cache)
+       Expanding Tomcat to .java-buildpack/tomcat (0.5s)
+-----> Downloading Tomcat Lifecycle Support 2.3.0_RELEASE from https://download.
+run.pivotal.io/tomcat-lifecycle-support/tomcat-lifecycle-support-2.3.0_RELEASE.j
+ar (found in cache)
+-----> Downloading Tomcat Logging Support 2.3.0_RELEASE from https://download.ru
+n.pivotal.io/tomcat-logging-support/tomcat-logging-support-2.3.0_RELEASE.jar (fo
+und in cache)
+-----> Downloading Tomcat Access Logging Support 2.3.0_RELEASE from https://down
+load.run.pivotal.io/tomcat-access-logging-support/tomcat-access-logging-support-
+2.3.0_RELEASE.jar (found in cache)
+
+-----> Uploading droplet (46M)
+
+1 of 1 instances running
+
+App started
+
+
+OK
+
+App manifest.yml was started using this command `JAVA_HOME=$PWD/.java-buildpack/
+open_jdk_jre JAVA_OPTS="-Djava.io.tmpdir=$TMPDIR -XX:OnOutOfMemoryError=$PWD/.ja
+va-buildpack/open_jdk_jre/bin/killjava.sh -Xmx160M -Xms160M -XX:MaxMetaspaceSize
+=64M -XX:MetaspaceSize=64M -Xss853K -Daccess.logging.enabled=false -Dhttp.port=$
+PORT" $PWD/.java-buildpack/tomcat/bin/catalina.sh run`
+
+Showing health and status for app manifest.yml in org girish_damodar_gmail_com /
+ space test as girish.damodar@gmail.com...
+OK
+
+requested state: started
+instances: 1/1
+usage: 256M x 1 instances
+urls: damodar.de.a9sapp.eu
+last uploaded: Thu Oct 1 03:39:26 +0000 2015
+stack: lucid64
+buildpack: java-buildpack=v2.5-offline-https://github.com/cloudfoundry/java-buil
+dpack.git#840500e open-jdk-jre=1.8.0_20 tomcat-access-logging-support=2.3.0_RELE
+ASE tomcat-instance=8.0.12 tomcat-lifecycle-support=2.3.0_RELEASE tomcat-logging
+-support=2.3.0_RELEASE
+
+     state     since                    cpu    memory           disk           d
+etails
+#0   running   2015-10-01 09:10:03 AM   4.4%   146.7M of 256M   108.8M of 1G
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+Automated Successful Build using travis CI , GIT and Eclipse(IDE) for checkin
+
+
+ 
+
+
+ 
+
+
+
+Using worker: worker-linux-docker-3a0652d3.prod.travis-ci.org:travis-linux-7
+
+system_info
+
+Build system information
+
+Build language: java
+
+Build image provisioning date and time
+
+Thu Feb  5 15:09:33 UTC 2015
+
+Operating System Details
+
+Distributor ID:	Ubuntu
+
+Description:	Ubuntu 12.04.5 LTS
+
+Release:	12.04
+
+Codename:	precise
+
+Linux Version
+
+3.13.0-29-generic
+
+Cookbooks Version
+
+a68419e https://github.com/travis-ci/travis-cookbooks/tree/a68419e
+
+GCC version
+
+gcc (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
+
+Copyright (C) 2011 Free Software Foundation, Inc.
+
+This is free software; see the source for copying conditions.  There is NO
+
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+LLVM version
+
+clang version 3.4 (tags/RELEASE_34/final)
+
+Target: x86_64-unknown-linux-gnu
+
+Thread model: posix
+
+Pre-installed Ruby versions
+
+ 
+ ......................
+.
+
+2.2.6
+
+Installed Firefox version
+
+firefox 31.0esr
+
+.
+
+Maven home: /usr/local/maven
+
+Java version: 1.7.0_76, vendor: Oracle Corporation
+
+Java home: /usr/lib/jvm/java-7-oracle/jre
+
+Default locale: en_US, platform encoding: ANSI_X3.4-1968
+
+OS name: "linux", version: "3.13.0-29-generic", arch: "amd64", family: "unix"
+
+git.checkout
+
+0.36s$ git clone --depth=50 --branch=testBranch3 https://github.com/Thamo/NewPhysicalInventory.git Thamo/NewPhysicalInventory
+
+Cloning into 'Thamo/NewPhysicalInventory'...
+
+remote: Counting objects: 125, done.
+
+remote: Compressing objects: 100% (105/105), done.
+
+remote: Total 125 (delta 43), reused 69 (delta 7), pack-reused 0
+
+Receiving objects: 100% (125/125), 819.30 KiB | 0 bytes/s, done.
+
+Resolving deltas: 100% (43/43), done.
+
+Checking connectivity... done.
+
+$ cd Thamo/NewPhysicalInventory
+
+$ git checkout -qf c64c07c30b1578a4ea2b610f93f5fbd794389fc2
+
+This job is running on container-based infrastructure, which does not allow use of 'sudo', setuid and setguid executables.
+
+If you require sudo, add 'sudo: required' to your .travis.yml
+
+See http://docs.travis-ci.com/user/workers/container-based-infrastructure/ for details.
+
+$ java -Xmx32m -version
+
+java version "1.7.0_76"
+
+Java(TM) SE Runtime Environment (build 1.7.0_76-b13)
+
+Java HotSpot(TM) 64-Bit Server VM (build 24.76-b04, mixed mode)
+
+$ javac -J-Xmx32m -version
+
+javac 1.7.0_76
+install
+
+6.05s$ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-14T17:29:23+00:00)
+
+Maven home: /usr/local/maven
+
+Java version: 1.7.0_76, vendor: Oracle Corporation
+
+Java home: /usr/lib/jvm/java-7-oracle/jre
+
+Default locale: en_US, platform encoding: UTF-8
+
+OS name: "linux", version: "3.13.0-40-generic", arch: "amd64", family: "unix"
+
+[INFO] Scanning for projects...
+
+[INFO]                                                                         
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Building Thamo 0.1
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8 KB at 20.0 KB/sec)
+
+ ................................................
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.jar (14 KB at 360.4 KB/sec)
+
+[INFO] Tests are skipped.
+
+[INFO] 
+
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Thamo ---
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (5 KB at 443.2 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom (3 KB at 304.8 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4 KB at 441.3 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (9 KB at 1166.0 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (9 KB at 1020.9 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom (2 KB at 211.5 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom (3 KB at 376.4 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom (19 KB at 2272.2 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom (1018 B at 124.3 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom (10 KB at 1077.3 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar (22 KB at 327.7 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar (60 KB at 868.5 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar (57 KB at 862.1 KB/sec)
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar (181 KB at 2144.2 KB/sec)
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (221 KB at 6690.1 KB/sec)
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar (203 KB at 5071.4 KB/sec)
+
+[WARNING] JAR will be empty - no content was marked for inclusion!
+
+[INFO] Building jar: /home/travis/build/Thamo/NewPhysicalInventory/build/helloutils.jar
+
+[INFO] 
+
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Thamo ---
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (3 KB at 272.6 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 KB at 2019.9 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (2 KB at 114.9 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5 KB at 607.3 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (8 KB at 882.6 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (8 KB at 886.6 KB/sec)
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (226 KB at 17311.2 KB/sec)
+
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 KB at 890.8 KB/sec)
+
+[INFO] Installing /home/travis/build/Thamo/NewPhysicalInventory/build/helloutils.jar to /home/travis/.m2/repository/yl/Thamo/0.1/Thamo-0.1.jar
+
+[INFO] Installing /home/travis/build/Thamo/NewPhysicalInventory/pom.xml to /home/travis/.m2/repository/yl/Thamo/0.1/Thamo-0.1.pom
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] BUILD SUCCESS
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Total time: 4.438 s
+
+[INFO] Finished at: 2015-10-01T03:46:39+00:00
+
+[INFO] Final Memory: 13M/465M
+
+[INFO] ------------------------------------------------------------------------
+
+2.76s$ mvn test -B
+
+[INFO] Scanning for projects...
+
+[INFO]                                                                         
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Building Thamo 0.1
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] 
+
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Thamo ---
+
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+
+[INFO] skip non existing resourceDirectory /home/travis/build/Thamo/NewPhysicalInventory/src/main/resources
+
+[INFO] 
+
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Thamo ---
+
+[INFO] No sources to compile
+
+[INFO] 
+
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Thamo ---
+
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+
+[INFO] skip non existing resourceDirectory /home/travis/build/Thamo/NewPhysicalInventory/src/test/resources
+
+[INFO] 
+
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Thamo ---
+
+[INFO] No sources to compile
+
+[INFO] 
+
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Thamo ---
+
+[INFO] No tests to run.
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] BUILD SUCCESS
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Total time: 1.089 s
+
+[INFO] Finished at: 2015-10-01T03:46:41+00:00
+
+[INFO] Final Memory: 9M/465M
+
+[INFO] ------------------------------------------------------------------------
+
+The command "mvn test -B" exited with 0.
+
+Skipping a deployment with the  provider because this branch is not permitted
+
+Done. Your build exited with 0.
+//////////////////////////////////////////////////////////////////////////////////////////
+
+// Login Servlet code
+ 
+
+package app4rUser;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class LoginDao {
+    public static boolean validate(String name, String pass) {        
+        boolean status = false;
+        Connection conn = null;
+        PreparedStatement pst = null;
+        ResultSet rs = null;
+
+        String url = "jdbc:mysql://113.128.164.50/";
+        String dbName = "techtool";
+        String driver = "com.mysql.jdbc.Driver";
+        String userName = "monty";
+        String password = "some_pass";
+        try {
+            Class.forName(driver).newInstance();
+            conn = DriverManager
+                    .getConnection(url + dbName, userName, password);
+
+            pst = conn
+                    .prepareStatement("select * from tech_users where userlogid=? and password=?");
+            pst.setString(1, name);
+            pst.setString(2, pass);
+
+            rs = pst.executeQuery();
+            System.out.println("rs" +rs);
+            status = rs.next();
+            System.out.println("Status" +status);
+        } catch (Exception e) {
+            System.out.println(e);
+        } finally {
+            if (conn != null) {
+                try {
+                    conn.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (pst != null) {
+                try {
+                    pst.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (rs != null) {
+                try {
+                    rs.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return true;
+    }
+}
